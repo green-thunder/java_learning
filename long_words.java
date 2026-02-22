@@ -6,6 +6,7 @@ public class long_words {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         String text = scanner.nextLine();
+        scanner.close();
         String[] arr = text.split(",");
         
         // Using an ArrayList to avoid the "empty string" and comma headache

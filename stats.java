@@ -21,6 +21,7 @@ public class stats {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         String text = scanner.nextLine();
+        scanner.close();
         String[] arrString = text.split(",");
         int[] numbers = new int[arrString.length];
         for (int i = 0; i < arrString.length; i++) {

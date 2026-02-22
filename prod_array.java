@@ -14,6 +14,7 @@ public class prod_array {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         String text = scanner.nextLine();
+        scanner.close();
         String[] stringArr = text.split(",");
         int[] arr = new int[stringArr.length];
         for (int i = 0; i < stringArr.length; i++) {
